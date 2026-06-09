@@ -1,0 +1,105 @@
+Part5-Train your First Model
+Questions:
+1. What is the slope?
+
+The slope is the value of model.coef_.
+The slope represents how much the output (y) changes when the input feature (X) increases by 1 unit. It shows the relationship strength between input and output.
+If the slope is positive, the output increases. If it is negative, the output decreases.
+
+2. What is the intercept?
+
+The intercept is the value of model.intercept_.
+It represents the predicted output when all input features are zero.
+It is the starting point of the regression line.
+
+3. What do they mean?
+
+Slope and intercept together form the linear equation:
+y = mx + c
+m → slope (model.coef_)
+c → intercept (model.intercept_)
+
+
+PART8-Model Evaluation
+
+1. What is MAE?
+
+Mean Absolute Error (MAE) is the average difference between actual values and predicted values. It shows how far predictions are from real values.
+
+2. What is R² Score?
+
+R² Score shows how well the model fits the data. It ranges from 0 to 1. A value closer to 1 means better performance.
+
+3. Is your model performing well?
+
+If MAE is low and R² score is close to 1, then the model is performing well. Otherwise, it needs improvement.
+
+
+
+Part10-Student Research Activity
+
+Questions:
+
+1. What is Machine Learning?
+
+Machine Learning (ML) is a branch of Artificial Intelligence that allows computers to learn from data without being explicitly programmed. Instead of writing fixed rules, we provide data and the system automatically finds patterns and relationships. These patterns are then used to make predictions or decisions.
+
+Machine Learning works in three main steps: data collection, training, and prediction. During training, the model studies input data and learns how features are related to output labels. After training, it can make predictions on new unseen data.
+
+ML is widely used in real life such as recommendation systems (Netflix, YouTube), fraud detection in banking, voice assistants like Siri and Alexa, and self-driving cars. It helps automate complex tasks and improves accuracy over time as more data is provided.
+
+2. What is Linear Regression?
+
+Linear Regression is a supervised machine learning algorithm used to predict continuous numerical values. It establishes a relationship between input variables (features) and an output variable (label) using a straight line.
+
+The equation of linear regression is: y = mx + c
+Where:
+y = predicted output
+x = input feature
+m = slope (coefficient)
+c = intercept
+The algorithm tries to find the best-fit line that minimizes the error between actual and predicted values. It is widely used in predicting house prices, salaries, and sales forecasting.
+Linear regression is simple, easy to understand, and works well when there is a linear relationship between variables. However, it may not perform well for complex or non-linear data.
+
+3. What are Features?
+
+Features are the input variables used in machine learning models to make predictions. They are also called independent variables or predictors. Features represent measurable properties or characteristics of the data.
+
+For example, in a student performance dataset, features can be study hours, attendance, and number of assignments completed. These values are used by the model to predict marks.
+
+Good features are very important because they directly affect model performance. If irrelevant or noisy features are included, the model accuracy may decrease. Feature selection is the process of choosing the most important features.
+
+In simple terms, features are the “inputs” given to a machine learning model.
+
+4. What are Labels?
+
+Labels are the output values that the machine learning model tries to predict. They are also called dependent variables or target variables.
+
+For example, in a student marks prediction system, the label is the final marks scored by the student. The model learns the relationship between features (study hours, attendance) and labels (marks).
+
+During training, the model uses labeled data to understand patterns. After training, it predicts labels for new unseen data.
+
+Labels are very important because they guide the learning process of the model. Without labels, supervised learning cannot work.
+
+5. Difference between Training Data and Testing Data
+
+Training data is the portion of the dataset used to train the machine learning model. The model learns patterns, relationships, and structures from this data.
+
+Testing data is used to evaluate the performance of the trained model. It checks how well the model performs on unseen data.
+
+The main difference is that training data is used for learning, while testing data is used for evaluation. A common split is 80% training and 20% testing.
+
+If a model performs well on training data but poorly on testing data, it means the model is overfitting.
+
+6. Where is Machine Learning used in real life?
+
+Machine Learning is used in many real-life applications. In healthcare, it helps in disease prediction and medical image analysis. In finance, it is used for fraud detection and credit scoring.
+
+In social media, ML powers recommendation systems like YouTube and Instagram feeds. In transportation, it is used in self-driving cars and traffic prediction. E-commerce platforms like Amazon use ML to suggest products.
+
+Voice assistants like Alexa and Google Assistant use ML for speech recognition. Even spam email detection uses machine learning to filter unwanted emails.
+
+Overall, ML is used everywhere to automate tasks and improve decision-making.
+
+
+
