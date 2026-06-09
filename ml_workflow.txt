@@ -1,0 +1,18 @@
+ML_WORKFLOW:
+There are 8 steps
+1.Data Collection:
+Data collection is the first step in machine learning where raw data is gathered from different sources like CSV files, databases, sensors, or APIs. The quality and quantity of data directly affect model performance. In this assignment, the dataset is already provided as a CSV file.
+2. Data Cleaning
+Data cleaning involves removing missing values, duplicate records, and incorrect data. It ensures the dataset is accurate and consistent. Clean data improves model accuracy and reduces errors during training.
+3. Feature Selection
+Feature selection means choosing important input variables (X) that help predict the output (y). It removes unnecessary columns to improve model performance and reduce complexity. Proper feature selection increases accuracy.
+4. Train-Test Split
+Train-test split divides the dataset into training and testing sets. The training set is used to train the model, while the testing set is used to evaluate it. Common split ratio is 80% training and 20% testing.
+5. Model Training
+Model training is the process where the algorithm learns patterns from training data. In this assignment, we use Linear Regression. The model learns the relationship between input features and output values.
+6. Testing
+Testing means checking how well the trained model performs on unseen data. The model predicts output values using the test dataset. This helps us understand if the model is working correctly.
+7. Evaluation
+Evaluation measures how good the model is using metrics like MAE and R² score. MAE shows average error, while R² shows how well the model fits the data. Higher R² means better performance.
+8. Prediction
+Prediction is the final step where the trained model is used to predict outcomes for new input data. It helps apply machine learning to real-world problems like forecasting or decision-making.
